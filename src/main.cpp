@@ -1,4 +1,4 @@
-#include <Arduino.h>
+
 #include <DHT.h>
 
 #define DHTPIN 15   // El pin al que está conectado el sensor DHT11 en el ESP32 (cambia según tu configuración)
@@ -27,3 +27,4 @@ void loop() {
   Serial.print(" °C, Humedad: ");
   Serial.print(humedad);
   Serial.println(" %");
+}
